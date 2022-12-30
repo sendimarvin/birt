@@ -10,3 +10,7 @@ def welcome():
 @app.route("/base")
 def base():
     return  render_template('base.html')
+
+@app.route("/login")
+def login():
+    return  render_template('login.html')
